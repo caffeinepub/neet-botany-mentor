@@ -1,0 +1,24 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Fix font color visibility on Hero section second CTA button",
+  "requirements": [
+    {
+      "id": "REQ-22",
+      "summary": "Fix the text color of the second CTA button in the Hero component so that its label is clearly visible with high contrast against the button background in all states (default, hover, focus).",
+      "acceptanceCriteria": [
+        "The second CTA button in the Hero section displays its label text in a clearly visible, high-contrast color against its background.",
+        "The button text is legible on both desktop and mobile viewports.",
+        "The button text remains visible on hover and focus states.",
+        "No other Hero section buttons or elements are unintentionally affected."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "modify",
+          "description": "Update the className or inline style of the second CTA button (the one identified by XPath /html[1]/body[1]/div[1]/div[1]/main[1]/section[1]/div[1]/div[4]/div[1]/div[2]/button[2]) to apply a high-contrast text color such as white (text-white) or dark green that ensures the button label is legible against its background. Verify that hover and focus states (hover:text-white or similar) are also defined to maintain visibility. Do not modify the button's background color, layout, size, or typography, and ensure no other Hero buttons are affected."
+        }
+      ]
+    }
+  ]
+}

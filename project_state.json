@@ -1,0 +1,282 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 13,
+  "summary": "Educational website for KULDEEP PATIDAR, an online NEET Botany personal tutoring program. Green and white biology theme, clean academic design, mobile-friendly. Includes hero/CTA, About Me, Services, Course Structure, Why Choose Me, Free Demo Class booking, Student Testimonials placeholder, FAQ, and Contact sections with a WhatsApp direct message button and contact form.",
+  "architectural_notes": [
+    "Green and white color theme throughout; professional academic tone",
+    "Fully mobile-responsive design",
+    "Single-page website with smooth scroll navigation"
+  ],
+  "known_issues": [
+    "Font color visibility issue reported — text not visible in some sections"
+  ],
+  "isFixRequest": true,
+  "existing_features": [
+    {
+      "id": "feature-implement-a-green-and-white-academic-visual-theme-with-clean-typography-consistent-spacing-and-a-trustworthy-result-oriented-aesthetic-use-deep-green-1a7a3c-or-similar-as-the-primary-brand-color-with-white-backgrounds-subtle-green-accents-and-professional-serif-sans-serif-font-pairing-apply-this-theme-consistently-across-all-sections-and-ensure-full-mobile-responsiveness",
+      "title": "Implement a green and white academic visual theme with clean typography, consistent spacing, and a trustworthy, result-oriented aesthetic. Use deep green (#1a7a3c or similar) as the primary brand color with white backgrounds, subtle green accents, and professional serif/sans-serif font pairing. Apply this theme consistently across all sections and ensure full mobile responsiveness.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-hero-section-at-the-top-of-the-page-featuring-the-site-name-your-name-neet-botany-mentor-a-compelling-tagline-and-two-prominent-call-to-action-buttons-enroll-now-for-neet-2026-preparation-and-limited-seats-available-start-your-journey-today-include-the-hero-background-image-hero-botany-dim-1440x600-png-as-the-section-background",
+      "title": "Build a Hero section at the top of the page featuring the site name '[Your Name] – NEET Botany Mentor', a compelling tagline, and two prominent call-to-action buttons: 'Enroll Now for NEET 2026 Preparation' and 'Limited Seats Available – Start Your Journey Today'. Include the hero background image (hero-botany.dim_1440x600.png) as the section background.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-an-about-me-section-with-placeholder-content-bio-paragraph-i-am-your-name-a-b-sc-m-sc-graduate-in-botany-with-x-years-of-teaching-experience-i-specialize-in-neet-biology-preparation-with-a-strong-focus-on-ncert-based-conceptual-clarity-i-help-students-score-high-marks-in-botany-through-structured-guidance-regular-testing-and-personal-mentoring-and-a-mission-statement-to-provide-concept-clarity-exam-oriented-preparation-and-personalized-mentoring-for-neet-aspirants-include-a-mentor-portrait-placeholder-image-mentor-portrait-dim-400x400-png",
+      "title": "Build an About Me section with placeholder content: bio paragraph ('I am [Your Name], a B.Sc./M.Sc. graduate in Botany with [X years] of teaching experience. I specialize in NEET Biology preparation with a strong focus on NCERT-based conceptual clarity. I help students score high marks in Botany through structured guidance, regular testing, and personal mentoring.') and a Mission statement ('To provide concept clarity, exam-oriented preparation, and personalized mentoring for NEET aspirants.'). Include a mentor portrait placeholder image (mentor-portrait.dim_400x400.png).",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-services-offered-section-listing-all-7-services-as-visually-distinct-cards-or-icon-accompanied-items-1-one-to-one-personal-online-mentoring-2-small-batch-live-classes-3-ncert-line-by-line-discussion-4-pyq-previous-year-questions-analysis-5-chapter-wise-tests-6-doubt-clearing-sessions-7-strategy-planning-for-neet",
+      "title": "Build a Services Offered section listing all 7 services as visually distinct cards or icon-accompanied items: (1) One-to-One Personal Online Mentoring, (2) Small Batch Live Classes, (3) NCERT Line-by-Line Discussion, (4) PYQ (Previous Year Questions) Analysis, (5) Chapter-wise Tests, (6) Doubt Clearing Sessions, (7) Strategy Planning for NEET.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-why-choose-me-section-highlighting-5-key-differentiators-as-a-visually-engaging-list-or-card-grid-1-strong-command-over-ncert-botany-2-focus-on-conceptual-understanding-3-personalized-attention-4-regular-performance-tracking-5-exam-focused-preparation",
+      "title": "Build a Why Choose Me section highlighting 5 key differentiators as a visually engaging list or card grid: (1) Strong command over NCERT Botany, (2) Focus on conceptual understanding, (3) Personalized attention, (4) Regular performance tracking, (5) Exam-focused preparation.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-course-structure-section-presenting-4-course-features-1-complete-neet-botany-syllabus-coverage-2-weekly-tests-3-monthly-performance-report-4-whatsapp-doubt-support-display-as-a-structured-list-or-timeline-style-layout",
+      "title": "Build a Course Structure section presenting 4 course features: (1) Complete NEET Botany Syllabus Coverage, (2) Weekly Tests, (3) Monthly Performance Report, (4) WhatsApp Doubt Support. Display as a structured list or timeline-style layout.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-free-demo-class-booking-section-with-a-short-promotional-heading-e-g-book-your-free-demo-class-a-brief-description-encouraging-prospective-students-to-try-a-session-before-enrolling-and-a-simple-booking-form-collecting-student-name-phone-number-preferred-date-time-and-a-submit-button-labeled-book-free-demo-store-submitted-demo-bookings-in-the-backend",
+      "title": "Build a Free Demo Class Booking section with a short promotional heading (e.g., 'Book Your Free Demo Class'), a brief description encouraging prospective students to try a session before enrolling, and a simple booking form collecting: student name, phone number, preferred date/time, and a submit button labeled 'Book Free Demo'. Store submitted demo bookings in the backend.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-student-testimonials-section-as-a-placeholder-for-future-content-display-a-visually-styled-section-heading-what-our-students-say-with-3-placeholder-testimonial-cards-showing-dummy-names-star-ratings-and-placeholder-review-text-e-g-testimonial-coming-soon-include-a-note-more-reviews-coming-soon",
+      "title": "Build a Student Testimonials section as a placeholder for future content. Display a visually styled section heading 'What Our Students Say' with 3 placeholder testimonial cards showing dummy names, star ratings, and placeholder review text (e.g., 'Testimonial coming soon...'). Include a note: 'More reviews coming soon.'",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-an-faq-section-with-exactly-6-accordion-style-questions-and-placeholder-answers-1-is-this-course-fully-based-on-ncert-yes-the-entire-course-is-strictly-ncert-based-with-line-by-line-discussion-2-are-classes-recorded-placeholder-answer-3-how-many-students-per-batch-placeholder-answer-on-batch-size-4-is-there-a-demo-class-yes-a-free-demo-class-is-available-5-what-is-the-fee-structure-placeholder-answer-on-fee-6-is-doubt-support-available-yes-whatsapp-doubt-support-is-provided",
+      "title": "Build an FAQ section with exactly 6 accordion-style questions and placeholder answers: (1) 'Is this course fully based on NCERT?' – Yes, the entire course is strictly NCERT-based with line-by-line discussion. (2) 'Are classes recorded?' – [Placeholder answer]. (3) 'How many students per batch?' – [Placeholder answer on batch size]. (4) 'Is there a demo class?' – Yes, a free demo class is available. (5) 'What is the fee structure?' – [Placeholder answer on fee]. (6) 'Is doubt support available?' – Yes, WhatsApp doubt support is provided.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-contact-section-displaying-phone-number-placeholder-your-phone-number-whatsapp-placeholder-your-whatsapp-number-email-placeholder-your-email-and-location-india-online-classes-available-pan-india-include-a-contact-form-with-fields-name-email-phone-message-and-a-submit-button-send-message-store-contact-form-submissions-in-the-backend-add-a-prominent-floating-or-inline-whatsapp-direct-message-button-link-wa-me-deep-link-with-placeholder-number-styled-in-whatsapp-green",
+      "title": "Build a Contact section displaying: Phone Number placeholder '[Your Phone Number]', WhatsApp placeholder '[Your WhatsApp Number]', Email placeholder '[Your Email]', and Location 'India (Online Classes Available Pan India)'. Include a contact form with fields: name, email, phone, message, and a submit button 'Send Message'. Store contact form submissions in the backend. Add a prominent floating or inline WhatsApp direct message button/link (wa.me deep link with placeholder number) styled in WhatsApp green.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-sticky-navigation-bar-at-the-top-with-the-site-name-logo-on-the-left-and-navigation-links-to-all-major-sections-about-services-course-why-choose-me-demo-class-testimonials-faq-contact-on-mobile-collapse-the-nav-into-a-hamburger-menu",
+      "title": "Add a sticky navigation bar at the top with the site name/logo on the left and navigation links to all major sections: About, Services, Course, Why Choose Me, Demo Class, Testimonials, FAQ, Contact. On mobile, collapse the nav into a hamburger menu.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-all-occurrences-of-your-name-placeholder-text-with-kuldeep-patidar-across-all-frontend-components-including-the-hero-section-headline-about-me-bio-paragraph-navigation-logo-site-name-footer-brand-info-and-any-other-location-where-your-name-appears",
+      "title": "Replace all occurrences of '[Your Name]' placeholder text with 'KULDEEP PATIDAR' across all frontend components, including the Hero section headline, About Me bio paragraph, Navigation logo/site name, Footer brand info, and any other location where '[Your Name]' appears.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-about-me-bio-paragraph-to-replace-x-years-with-5-years-and-add-at-allen-kota-and-narayana-indore-as-the-institutions-where-the-teaching-experience-was-gained-the-updated-sentence-should-read-i-am-kuldeep-patidar-a-b-sc-m-sc-graduate-in-botany-with-5-years-of-teaching-experience-at-allen-kota-and-narayana-indore",
+      "title": "Update the About Me bio paragraph to replace '[X years]' with '5 years' and add 'at ALLEN KOTA and NARAYANA INDORE' as the institutions where the teaching experience was gained. The updated sentence should read: 'I am Kuldeep Patidar, a B.Sc./M.Sc. graduate in Botany with 5 years of teaching experience at ALLEN KOTA and NARAYANA INDORE.'",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-about-me-section-bio-paragraph-to-mention-that-kuldeep-patidar-completed-both-his-b-sc-and-m-sc-in-botany-from-banaras-hindu-university-bhu-noted-as-a-top-university-of-india-the-updated-sentence-should-read-i-am-kuldeep-patidar-a-b-sc-m-sc-graduate-in-botany-from-banaras-hindu-university-bhu-one-of-the-top-universities-in-india-with-5-years-of-teaching-experience-at-allen-kota-and-narayana-indore",
+      "title": "Update the About Me section bio paragraph to mention that Kuldeep Patidar completed both his B.Sc. and M.Sc. in Botany from Banaras Hindu University (BHU), noted as a top university of India. The updated sentence should read: 'I am Kuldeep Patidar, a B.Sc./M.Sc. graduate in Botany from Banaras Hindu University (BHU) — one of the top universities in India — with 5 years of teaching experience at ALLEN KOTA and NARAYANA INDORE.'",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-section-to-replace-all-placeholder-contact-detail-text-with-kuldeep-patidar-s-real-personal-details-the-user-will-provide-the-actual-phone-number-whatsapp-number-and-email-until-provided-insert-clearly-labelled-real-value-placeholders-such-as-91-xxxxxxxxxx-for-phone-and-whatsapp-and-kuldeep-example-com-for-email-and-update-the-whatsapp-floating-button-wa-me-deep-link-to-use-the-same-whatsapp-number-also-update-the-footer-component-wherever-contact-details-appear",
+      "title": "Update the Contact section to replace all placeholder contact detail text with Kuldeep Patidar's real personal details. The user will provide the actual phone number, WhatsApp number, and email. Until provided, insert clearly labelled real-value placeholders such as '+91-XXXXXXXXXX' for phone and WhatsApp and 'kuldeep@example.com' for email, and update the WhatsApp floating button (wa.me deep link) to use the same WhatsApp number. Also update the Footer component wherever contact details appear.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-contact-component-frontend-src-components-contact-tsx-update-the-phone-number-display-and-whatsapp-number-display-to-8959580121-formatted-as-91-8959580121-the-whatsapp-anchor-link-for-the-inline-floating-whatsapp-card-should-point-to-https-wa-me-918959580121-the-selected-element-identified-by-xpath-html-1-body-1-div-1-div-1-main-1-section-9-div-1-div-1-div-2-div-1-div-1-div-2-a-1-is-the-whatsapp-link-anchor-update-its-href-to-https-wa-me-918959580121-and-update-the-displayed-number-text-to-91-8959580121",
+      "title": "In the Contact component (frontend/src/components/Contact.tsx), update the phone number display and WhatsApp number display to '8959580121' (formatted as '+91-8959580121'). The WhatsApp anchor link for the inline/floating WhatsApp card should point to 'https://wa.me/918959580121'. The selected element identified by XPath /html[1]/body[1]/div[1]/div[1]/main[1]/section[9]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/a[1] is the WhatsApp link anchor — update its href to 'https://wa.me/918959580121' and update the displayed number text to '+91-8959580121'.",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-whatsappfloat-component-frontend-src-components-whatsappfloat-tsx-update-the-wa-me-deep-link-href-to-https-wa-me-918959580121-so-the-floating-whatsapp-button-uses-kuldeep-patidar-s-real-number-8959580121",
+      "title": "In the WhatsAppFloat component (frontend/src/components/WhatsAppFloat.tsx), update the wa.me deep link href to 'https://wa.me/918959580121' so the floating WhatsApp button uses Kuldeep Patidar's real number 8959580121.",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-footer-component-frontend-src-components-footer-tsx-update-any-displayed-phone-or-whatsapp-number-to-91-8959580121-and-update-any-wa-me-link-to-https-wa-me-918959580121",
+      "title": "In the Footer component (frontend/src/components/Footer.tsx), update any displayed phone or WhatsApp number to '+91-8959580121' and update any wa.me link to 'https://wa.me/918959580121'.",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-contact-component-frontend-src-components-contact-tsx-update-the-email-address-display-and-its-mailto-href-to-patidarji121-gmail-com-the-selected-element-identified-by-xpath-html-1-body-1-div-1-div-1-main-1-section-9-div-1-div-1-div-2-div-1-div-3-div-2-a-1-is-the-email-anchor-update-its-href-to-mailto-patidarji121-gmail-com-and-update-the-displayed-email-text-to-patidarji121-gmail-com",
+      "title": "In the Contact component (frontend/src/components/Contact.tsx), update the email address display and its mailto: href to 'patidarji121@gmail.com'. The selected element identified by XPath /html[1]/body[1]/div[1]/div[1]/main[1]/section[9]/div[1]/div[1]/div[2]/div[1]/div[3]/div[2]/a[1] is the email anchor — update its href to 'mailto:patidarji121@gmail.com' and update the displayed email text to 'patidarji121@gmail.com'.",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-footer-component-frontend-src-components-footer-tsx-update-any-displayed-email-address-and-its-mailto-href-to-patidarji121-gmail-com",
+      "title": "In the Footer component (frontend/src/components/Footer.tsx), update any displayed email address and its mailto: href to 'patidarji121@gmail.com'.",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-hero-component-frontend-src-components-hero-tsx-fix-the-text-color-of-the-second-cta-button-identified-by-xpath-html-1-body-1-div-1-div-1-main-1-section-1-div-1-div-4-div-1-div-2-button-2-so-that-its-label-text-is-clearly-visible-apply-a-high-contrast-text-color-e-g-white-or-dark-green-that-is-legible-against-the-button-s-background-ensure-the-button-label-remains-readable-in-all-states-default-hover-focus",
+      "title": "In the Hero component (frontend/src/components/Hero.tsx), fix the text color of the second CTA button identified by XPath /html[1]/body[1]/div[1]/div[1]/main[1]/section[1]/div[1]/div[4]/div[1]/div[2]/button[2] so that its label text is clearly visible. Apply a high-contrast text color (e.g., white or dark green) that is legible against the button's background. Ensure the button label remains readable in all states (default, hover, focus).",
+      "reqIds": [
+        "REQ-22"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with CTA buttons: 'Enroll Now for NEET 2026' and 'Limited Seats Available'",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About Me section with bio, qualifications, teaching experience, and mission statement",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Services Offered section listing all 7 services (one-to-one mentoring, live classes, NCERT discussion, PYQ analysis, tests, doubt clearing, strategy planning)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Why Choose Me section with 5 key differentiators",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Course Structure section covering syllabus, weekly tests, monthly reports, WhatsApp support",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Free Demo Class booking section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Student Testimonials section (placeholder for future content)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "FAQ section with 6 questions about NCERT basis, recorded classes, batch size, demo class, fees, and doubt support",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Contact section with phone, WhatsApp, email, location, contact form, and WhatsApp direct message button",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-20",
+      "summary": "Implement a Motoko backend actor that stores: (1) contact form submissions with fields: name, email, phone, message, timestamp; (2) demo class booking requests with fields: name, phone, preferredTime, timestamp. Expose query functions to retrieve all submissions (for future admin use).",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-21",
+      "summary": "Replace '[Your Name]' placeholder with 'KULDEEP PATIDAR' throughout the site, and update teaching experience to '5 years' with institutions 'ALLEN KOTA and NARAYANA INDORE' instead of '[X years]'",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-22",
+      "summary": "Update About Me bio to mention that B.Sc. and M.Sc. were both completed from Banaras Hindu University (BHU), noted as a top university of India",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-23",
+      "summary": "Add Kuldeep Patidar's personal contact details (phone, WhatsApp, email) to the Contact Us section replacing placeholder text",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-24",
+      "summary": "Update phone and WhatsApp number to 8959580121 (Kuldeep Patidar's real contact number) across Contact section, WhatsApp floating button (wa.me deep link), and Footer",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-25",
+      "summary": "Update email address to patidarji121@gmail.com across Contact section, Footer, and anywhere else email appears",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "NEET Botany Mentor",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

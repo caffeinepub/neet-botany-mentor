@@ -1,0 +1,14 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-25T08:40:29.405Z",
+  "summary": "The diff shows that Hero.tsx was modified to include the second CTA button with explicit white text classes (text-white hover:text-white) and border-2 border-white for visibility. This directly addresses REQ-22 by applying a high-contrast text color (white) to the second CTA button, ensuring legibility in default, hover, and focus states, while leaving the first button and other elements unaffected.",
+  "missing_requirements": [],
+  "hallucinated_features": [],
+  "confidence": 0.92,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/src/components/Hero.tsx",
+    "project_state.json"
+  ]
+}

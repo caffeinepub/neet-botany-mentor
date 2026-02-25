@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-in-the-hero-component-frontend-src-components-hero-tsx-fix-the-text-color-of-the-second-cta-button-identified-by-xpath-html-1-body-1-div-1-div-1-main-1-section-1-div-1-div-4-div-1-div-2-button-2-so-that-its-label-text-is-clearly-visible-apply-a-high-contrast-text-color-e-g-white-or-dark-green-that-is-legible-against-the-button-s-background-ensure-the-button-label-remains-readable-in-all-states-default-hover-focus",
+      "featureTitle": "In the Hero component (frontend/src/components/Hero.tsx), fix the text color of the second CTA button identified by XPath /html[1]/body[1]/div[1]/div[1]/main[1]/section[1]/div[1]/div[4]/div[1]/div[2]/button[2] so that its label text is clearly visible. Apply a high-contrast text color (e.g., white or dark green) that is legible against the button's background. Ensure the button label remains readable in all states (default, hover, focus).",
+      "files": [
+        "frontend/src/components/Hero.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-22"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
